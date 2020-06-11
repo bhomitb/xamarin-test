@@ -1,0 +1,1807 @@
+<api>
+  <package name="bitter.jnibridge" jni-name="bitter/jnibridge">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="JNIBridge" static="false" visibility="public" jni-signature="Lbitter/jnibridge/JNIBridge;">
+      <constructor deprecated="not deprecated" final="false" name="JNIBridge" jni-signature="()V" bridge="false" static="false" type="bitter.jnibridge.JNIBridge" synthetic="false" visibility="public">
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="JNIBridge.a" static="true" visibility="private" jni-signature="Lbitter/jnibridge/JNIBridge$a;">
+      <implements name="java.lang.reflect.InvocationHandler" name-generic-aware="java.lang.reflect.InvocationHandler" jni-type="Ljava/lang/reflect/InvocationHandler;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="JNIBridge.a" jni-signature="(J)V" bridge="false" static="false" type="bitter.jnibridge.JNIBridge.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="finalize" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="invoke" jni-signature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="p1" type="java.lang.reflect.Method" jni-type="Ljava/lang/reflect/Method;">
+        </parameter>
+        <parameter name="p2" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;">
+        </parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.google.androidgamesdk" jni-name="com/google/androidgamesdk">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ChoreographerCallback" static="false" visibility="public" jni-signature="Lcom/google/androidgamesdk/ChoreographerCallback;">
+      <implements name="android.view.Choreographer.FrameCallback" name-generic-aware="android.view.Choreographer.FrameCallback" jni-type="Landroid/view/Choreographer$FrameCallback;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="ChoreographerCallback" jni-signature="(J)V" bridge="false" static="false" type="com.google.androidgamesdk.ChoreographerCallback" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="doFrame" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="nOnChoreographer" jni-signature="(JJ)V" bridge="false" native="true" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="postFrameCallback" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="postFrameCallbackDelayed" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="terminate" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="ChoreographerCallback.1" static="false" visibility="" jni-signature="Lcom/google/androidgamesdk/ChoreographerCallback$1;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" jni-extends="Ljava/lang/Thread;" final="true" name="ChoreographerCallback.a" static="false" visibility="private" jni-signature="Lcom/google/androidgamesdk/ChoreographerCallback$a;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Landroid/os/Handler;" static="false" transient="false" type="android.os.Handler" type-generic-aware="android.os.Handler" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="SwappyDisplayManager" static="false" visibility="public" jni-signature="Lcom/google/androidgamesdk/SwappyDisplayManager;">
+      <implements name="android.hardware.display.DisplayManager.DisplayListener" name-generic-aware="android.hardware.display.DisplayManager.DisplayListener" jni-type="Landroid/hardware/display/DisplayManager$DisplayListener;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="SwappyDisplayManager" jni-signature="(JLandroid/app/Activity;)V" bridge="false" static="false" type="com.google.androidgamesdk.SwappyDisplayManager" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p1" type="android.app.Activity" jni-type="Landroid/app/Activity;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onDisplayAdded" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onDisplayChanged" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onDisplayRemoved" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPreferredRefreshRate" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="terminate" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="SwappyDisplayManager.1" static="false" visibility="" jni-signature="Lcom/google/androidgamesdk/SwappyDisplayManager$1;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" jni-extends="Ljava/lang/Thread;" final="true" name="SwappyDisplayManager.a" static="false" visibility="private" jni-signature="Lcom/google/androidgamesdk/SwappyDisplayManager$a;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="start" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Landroid/os/Handler;" static="false" transient="false" type="android.os.Handler" type-generic-aware="android.os.Handler" visibility="public" volatile="false">
+      </field>
+    </class>
+  </package>
+  <package name="com.unity3d.player" jni-name="com/unity3d/player">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="a" static="false" visibility="" jni-signature="Lcom/unity3d/player/a;">
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.unity3d.player.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Lcom/unity3d/player/a$b;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.unity3d.player.a.b" jni-type="Lcom/unity3d/player/a$b;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.database.ContentObserver" extends-generic-aware="android.database.ContentObserver" jni-extends="Landroid/database/ContentObserver;" final="true" name="a.a" static="false" visibility="private" jni-signature="Lcom/unity3d/player/a$a;">
+      <constructor deprecated="not deprecated" final="false" name="a.a" jni-signature="(Lcom/unity3d/player/a;Landroid/os/Handler;Landroid/media/AudioManager;ILcom/unity3d/player/a$b;)V" bridge="false" static="false" type="com.unity3d.player.a.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Handler" jni-type="Landroid/os/Handler;">
+        </parameter>
+        <parameter name="p1" type="android.media.AudioManager" jni-type="Landroid/media/AudioManager;">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="com.unity3d.player.a.b" jni-type="Lcom/unity3d/player/a$b;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="deliverSelfNotifications" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onChange" jni-signature="(ZLandroid/net/Uri;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p1" type="android.net.Uri" jni-type="Landroid/net/Uri;">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="a.b" static="true" visibility="public" jni-signature="Lcom/unity3d/player/a$b;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onAudioVolumeChanged" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="AudioVolumeHandler" static="false" visibility="public" jni-signature="Lcom/unity3d/player/AudioVolumeHandler;">
+      <implements name="com.unity3d.player.a.b" name-generic-aware="com.unity3d.player.a.b" jni-type="Lcom/unity3d/player/a$b;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onAudioVolumeChanged" jni-signature="(I)V" bridge="false" native="true" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="b" static="false" visibility="public" jni-signature="Lcom/unity3d/player/b;">
+      <constructor deprecated="not deprecated" final="false" name="b" jni-signature="(Lcom/unity3d/player/d;)V" bridge="false" static="false" type="com.unity3d.player.b" synthetic="false" visibility="protected">
+        <parameter name="p0" type="com.unity3d.player.d" jni-type="Lcom/unity3d/player/d;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()Landroid/graphics/Rect;" bridge="false" native="false" return="android.graphics.Rect" jni-return="Landroid/graphics/Rect;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;)I" bridge="false" native="false" return="int" jni-return="I" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;I)I" bridge="false" native="false" return="int" jni-return="I" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Landroid/content/Context;IIIII)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p4" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p5" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(FF)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="b" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Landroid/content/Context;I)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="c" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="(Landroid/content/Context;I)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="d" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="(Landroid/content/Context;I)[I" bridge="false" native="false" return="int[]" jni-return="[I" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="e" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.hardware.camera2.CameraCaptureSession.CaptureCallback" extends-generic-aware="android.hardware.camera2.CameraCaptureSession.CaptureCallback" jni-extends="Landroid/hardware/camera2/CameraCaptureSession$CaptureCallback;" final="true" name="b.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/b$1;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="onCaptureCompleted" jni-signature="(Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/TotalCaptureResult;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraCaptureSession" jni-type="Landroid/hardware/camera2/CameraCaptureSession;">
+        </parameter>
+        <parameter name="p1" type="android.hardware.camera2.CaptureRequest" jni-type="Landroid/hardware/camera2/CaptureRequest;">
+        </parameter>
+        <parameter name="p2" type="android.hardware.camera2.TotalCaptureResult" jni-type="Landroid/hardware/camera2/TotalCaptureResult;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onCaptureFailed" jni-signature="(Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/CaptureFailure;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraCaptureSession" jni-type="Landroid/hardware/camera2/CameraCaptureSession;">
+        </parameter>
+        <parameter name="p1" type="android.hardware.camera2.CaptureRequest" jni-type="Landroid/hardware/camera2/CaptureRequest;">
+        </parameter>
+        <parameter name="p2" type="android.hardware.camera2.CaptureFailure" jni-type="Landroid/hardware/camera2/CaptureFailure;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onCaptureSequenceAborted" jni-signature="(Landroid/hardware/camera2/CameraCaptureSession;I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraCaptureSession" jni-type="Landroid/hardware/camera2/CameraCaptureSession;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onCaptureSequenceCompleted" jni-signature="(Landroid/hardware/camera2/CameraCaptureSession;IJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraCaptureSession" jni-type="Landroid/hardware/camera2/CameraCaptureSession;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="long" jni-type="J">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.hardware.camera2.CameraCaptureSession.StateCallback" extends-generic-aware="android.hardware.camera2.CameraCaptureSession.StateCallback" jni-extends="Landroid/hardware/camera2/CameraCaptureSession$StateCallback;" final="true" name="b.2" static="false" visibility="" jni-signature="Lcom/unity3d/player/b$2;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="onConfigureFailed" jni-signature="(Landroid/hardware/camera2/CameraCaptureSession;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraCaptureSession" jni-type="Landroid/hardware/camera2/CameraCaptureSession;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onConfigured" jni-signature="(Landroid/hardware/camera2/CameraCaptureSession;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraCaptureSession" jni-type="Landroid/hardware/camera2/CameraCaptureSession;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.hardware.camera2.CameraDevice.StateCallback" extends-generic-aware="android.hardware.camera2.CameraDevice.StateCallback" jni-extends="Landroid/hardware/camera2/CameraDevice$StateCallback;" final="true" name="b.3" static="false" visibility="" jni-signature="Lcom/unity3d/player/b$3;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="onClosed" jni-signature="(Landroid/hardware/camera2/CameraDevice;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraDevice" jni-type="Landroid/hardware/camera2/CameraDevice;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onDisconnected" jni-signature="(Landroid/hardware/camera2/CameraDevice;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraDevice" jni-type="Landroid/hardware/camera2/CameraDevice;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onError" jni-signature="(Landroid/hardware/camera2/CameraDevice;I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraDevice" jni-type="Landroid/hardware/camera2/CameraDevice;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onOpened" jni-signature="(Landroid/hardware/camera2/CameraDevice;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraDevice" jni-type="Landroid/hardware/camera2/CameraDevice;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="b.4" static="false" visibility="" jni-signature="Lcom/unity3d/player/b$4;">
+      <implements name="android.media.ImageReader.OnImageAvailableListener" name-generic-aware="android.media.ImageReader.OnImageAvailableListener" jni-type="Landroid/media/ImageReader$OnImageAvailableListener;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onImageAvailable" jni-signature="(Landroid/media/ImageReader;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.media.ImageReader" jni-type="Landroid/media/ImageReader;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="b.5" static="false" visibility="" jni-signature="Lcom/unity3d/player/b$5;">
+      <implements name="android.graphics.SurfaceTexture.OnFrameAvailableListener" name-generic-aware="android.graphics.SurfaceTexture.OnFrameAvailableListener" jni-type="Landroid/graphics/SurfaceTexture$OnFrameAvailableListener;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onFrameAvailable" jni-signature="(Landroid/graphics/SurfaceTexture;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.graphics.SurfaceTexture" jni-type="Landroid/graphics/SurfaceTexture;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum" jni-extends="Ljava/lang/Enum;" final="true" name="b.a" static="true" visibility="private" jni-signature="Lcom/unity3d/player/b$a;">
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lcom/unity3d/player/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="com.unity3d.player.BuildConfig" synthetic="false" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.unity3d.player&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;0.1&quot;" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="" jni-signature="Lcom/unity3d/player/c;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="reportError" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="runOnUiThread" jni-signature="(Ljava/lang/Runnable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="runOnUiThreadWithSync" jni-signature="(Ljava/lang/Runnable;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Lcom/unity3d/player/o;" static="false" transient="false" type="com.unity3d.player.o" type-generic-aware="com.unity3d.player.o" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="Lcom/unity3d/player/f;" static="false" transient="false" type="com.unity3d.player.f" type-generic-aware="com.unity3d.player.f" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="c.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/c$1;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Camera2Wrapper" static="false" visibility="public" jni-signature="Lcom/unity3d/player/Camera2Wrapper;">
+      <implements name="com.unity3d.player.d" name-generic-aware="com.unity3d.player.d" jni-type="Lcom/unity3d/player/d;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="Camera2Wrapper" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.unity3d.player.Camera2Wrapper" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;III)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="p1" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="p2" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p4" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p5" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="closeCamera2" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCamera2Count" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCamera2Resolutions" jni-signature="(I)[I" bridge="false" native="false" return="int[]" jni-return="[I" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCamera2SensorOrientation" jni-signature="(I)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCameraFocusArea" jni-signature="(FF)Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFrameSizeCamera2" jni-signature="()Landroid/graphics/Rect;" bridge="false" native="false" return="android.graphics.Rect" jni-return="Landroid/graphics/Rect;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="initializeCamera2" jni-signature="(IIIII)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p4" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isCamera2AutoFocusPointSupported" jni-signature="(I)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isCamera2FrontFacing" jni-signature="(I)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="pauseCamera2" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAutoFocusPoint" jni-signature="(FF)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="startCamera2" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="stopCamera2" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="d" static="false" visibility="public" jni-signature="Lcom/unity3d/player/d;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;III)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="p1" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="p2" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p4" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p5" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="e" static="false" visibility="public" jni-signature="Lcom/unity3d/player/e;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/app/Activity;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Activity" jni-type="Landroid/app/Activity;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/app/Activity;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Activity" jni-type="Landroid/app/Activity;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="f" static="false" visibility="" jni-signature="Lcom/unity3d/player/f;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="addViewToPlayer" jni-signature="(Landroid/view/View;Z)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.View" jni-type="Landroid/view/View;">
+        </parameter>
+        <parameter name="p1" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="removeViewFromPlayer" jni-signature="(Landroid/view/View;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.View" jni-type="Landroid/view/View;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="reportError" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="g" static="false" visibility="" jni-signature="Lcom/unity3d/player/g;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="Log" jni-signature="(ILjava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="GoogleARCoreApi" static="false" visibility="public" jni-signature="Lcom/unity3d/player/GoogleARCoreApi;">
+      <constructor deprecated="not deprecated" final="false" name="GoogleARCoreApi" jni-signature="()V" bridge="false" static="false" type="com.unity3d.player.GoogleARCoreApi" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="initializeARCore" jni-signature="(Landroid/app/Activity;)V" bridge="false" native="true" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Activity" jni-type="Landroid/app/Activity;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="pauseARCore" jni-signature="()V" bridge="false" native="true" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="resumeARCore" jni-signature="()V" bridge="false" native="true" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="GoogleVrApi" static="false" visibility="public" jni-signature="Lcom/unity3d/player/GoogleVrApi;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getGoogleVrVideo" jni-signature="()Lcom/unity3d/player/GoogleVrVideo;" bridge="false" native="false" return="com.unity3d.player.GoogleVrVideo" jni-return="Lcom/unity3d/player/GoogleVrVideo;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.unity3d.player.c" extends-generic-aware="com.unity3d.player.c" jni-extends="Lcom/unity3d/player/c;" final="false" name="GoogleVrProxy" static="false" visibility="" jni-signature="Lcom/unity3d/player/GoogleVrProxy;">
+      <implements name="com.unity3d.player.GoogleVrVideo" name-generic-aware="com.unity3d.player.GoogleVrVideo" jni-type="Lcom/unity3d/player/GoogleVrVideo;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Landroid/app/Activity;Landroid/content/Context;Landroid/view/SurfaceView;Ljava/lang/Runnable;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Activity" jni-type="Landroid/app/Activity;">
+        </parameter>
+        <parameter name="p1" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p2" type="android.view.SurfaceView" jni-type="Landroid/view/SurfaceView;">
+        </parameter>
+        <parameter name="p3" type="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Intent" jni-type="Landroid/content/Intent;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="b" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="c" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="deregisterGoogleVrVideoListener" jni-signature="(Lcom/unity3d/player/GoogleVrVideo$GoogleVrVideoCallbacks;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.unity3d.player.GoogleVrVideo.GoogleVrVideoCallbacks" jni-type="Lcom/unity3d/player/GoogleVrVideo$GoogleVrVideoCallbacks;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getVideoSurface" jni-signature="()Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getVideoSurfaceId" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="loadGoogleVr" jni-signature="(ZZZZZ)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p1" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p2" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p3" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p4" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="pauseGvrLayout" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="registerGoogleVrVideoListener" jni-signature="(Lcom/unity3d/player/GoogleVrVideo$GoogleVrVideoCallbacks;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.unity3d.player.GoogleVrVideo.GoogleVrVideoCallbacks" jni-type="Lcom/unity3d/player/GoogleVrVideo$GoogleVrVideoCallbacks;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="resumeGvrLayout" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setGoogleVrModeEnabled" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setVideoLocationTransform" jni-signature="([F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float[]" jni-type="[F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unloadGoogleVr" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.os.Handler" extends-generic-aware="android.os.Handler" jni-extends="Landroid/os/Handler;" final="true" name="GoogleVrProxy.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/GoogleVrProxy$1;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="handleMessage" jni-signature="(Landroid/os/Message;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message" jni-type="Landroid/os/Message;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="GoogleVrProxy.2" static="false" visibility="" jni-signature="Lcom/unity3d/player/GoogleVrProxy$2;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="GoogleVrProxy.3" static="false" visibility="" jni-signature="Lcom/unity3d/player/GoogleVrProxy$3;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="GoogleVrProxy.4" static="false" visibility="" jni-signature="Lcom/unity3d/player/GoogleVrProxy$4;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="GoogleVrProxy.a" static="false" visibility="" jni-signature="Lcom/unity3d/player/GoogleVrProxy$a;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="b" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="GoogleVrVideo" static="false" visibility="public" jni-signature="Lcom/unity3d/player/GoogleVrVideo;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="deregisterGoogleVrVideoListener" jni-signature="(Lcom/unity3d/player/GoogleVrVideo$GoogleVrVideoCallbacks;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.unity3d.player.GoogleVrVideo.GoogleVrVideoCallbacks" jni-type="Lcom/unity3d/player/GoogleVrVideo$GoogleVrVideoCallbacks;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="registerGoogleVrVideoListener" jni-signature="(Lcom/unity3d/player/GoogleVrVideo$GoogleVrVideoCallbacks;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.unity3d.player.GoogleVrVideo.GoogleVrVideoCallbacks" jni-type="Lcom/unity3d/player/GoogleVrVideo$GoogleVrVideoCallbacks;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setVideoLocationTransform" jni-signature="([F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float[]" jni-type="[F">
+        </parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="GoogleVrVideo.GoogleVrVideoCallbacks" static="true" visibility="public" jni-signature="Lcom/unity3d/player/GoogleVrVideo$GoogleVrVideoCallbacks;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onFrameAvailable" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSurfaceAvailable" jni-signature="(Landroid/view/Surface;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.Surface" jni-type="Landroid/view/Surface;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSurfaceUnavailable" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="h" static="false" visibility="public" jni-signature="Lcom/unity3d/player/h;">
+      <implements name="com.unity3d.player.e" name-generic-aware="com.unity3d.player.e" jni-type="Lcom/unity3d/player/e;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="h" jni-signature="()V" bridge="false" static="false" type="com.unity3d.player.h" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Landroid/app/Activity;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Activity" jni-type="Landroid/app/Activity;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Landroid/app/Activity;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Activity" jni-type="Landroid/app/Activity;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="HFPStatus" static="false" visibility="public" jni-signature="Lcom/unity3d/player/HFPStatus;">
+      <constructor deprecated="not deprecated" final="false" name="HFPStatus" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.unity3d.player.HFPStatus" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHFPStat" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="requestHFPStat" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" jni-extends="Landroid/content/BroadcastReceiver;" final="false" name="HFPStatus.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/HFPStatus$1;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="onReceive" jni-signature="(Landroid/content/Context;Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="android.content.Intent" jni-type="Landroid/content/Intent;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum" jni-extends="Ljava/lang/Enum;" final="true" name="HFPStatus.a" static="true" visibility="" jni-signature="Lcom/unity3d/player/HFPStatus$a;">
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.app.Fragment" extends-generic-aware="android.app.Fragment" jni-extends="Landroid/app/Fragment;" final="true" name="i" static="false" visibility="public" jni-signature="Lcom/unity3d/player/i;">
+      <constructor deprecated="not deprecated" final="false" name="i" jni-signature="()V" bridge="false" static="false" type="com.unity3d.player.i" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onCreate" jni-signature="(Landroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Bundle" jni-type="Landroid/os/Bundle;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onRequestPermissionsResult" jni-signature="(I[Ljava/lang/String;[I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="java.lang.String[]" jni-type="[Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="int[]" jni-type="[I">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IUnityPlayerLifecycleEvents" static="false" visibility="public" jni-signature="Lcom/unity3d/player/IUnityPlayerLifecycleEvents;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onUnityPlayerQuitted" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onUnityPlayerUnloaded" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="j" static="false" visibility="public" jni-signature="Lcom/unity3d/player/j;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="android.app.Dialog" extends-generic-aware="android.app.Dialog" jni-extends="Landroid/app/Dialog;" final="true" name="k" static="false" visibility="public" jni-signature="Lcom/unity3d/player/k;">
+      <implements name="android.text.TextWatcher" name-generic-aware="android.text.TextWatcher" jni-type="Landroid/text/TextWatcher;">
+      </implements>
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener" jni-type="Landroid/view/View$OnClickListener;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="k" jni-signature="(Landroid/content/Context;Lcom/unity3d/player/UnityPlayer;Ljava/lang/String;IZZZLjava/lang/String;IZ)V" bridge="false" static="false" type="com.unity3d.player.k" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="com.unity3d.player.UnityPlayer" jni-type="Lcom/unity3d/player/UnityPlayer;">
+        </parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p4" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p5" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p6" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p7" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p8" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p9" type="boolean" jni-type="Z">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(II)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="afterTextChanged" jni-signature="(Landroid/text/Editable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.text.Editable" jni-type="Landroid/text/Editable;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="beforeTextChanged" jni-signature="(Ljava/lang/CharSequence;III)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.CharSequence" jni-type="Ljava/lang/CharSequence;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="createSoftInputView" jni-signature="()Landroid/view/View;" bridge="false" native="false" return="android.view.View" jni-return="Landroid/view/View;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onBackPressed" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onClick" jni-signature="(Landroid/view/View;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.View" jni-type="Landroid/view/View;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onTextChanged" jni-signature="(Ljava/lang/CharSequence;III)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.CharSequence" jni-type="Ljava/lang/CharSequence;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="k.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/k$1;">
+      <implements name="android.view.ViewTreeObserver.OnGlobalLayoutListener" name-generic-aware="android.view.ViewTreeObserver.OnGlobalLayoutListener" jni-type="Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onGlobalLayout" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="k.2" static="false" visibility="" jni-signature="Lcom/unity3d/player/k$2;">
+      <implements name="android.view.View.OnFocusChangeListener" name-generic-aware="android.view.View.OnFocusChangeListener" jni-type="Landroid/view/View$OnFocusChangeListener;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onFocusChange" jni-signature="(Landroid/view/View;Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.View" jni-type="Landroid/view/View;">
+        </parameter>
+        <parameter name="p1" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.EditText" extends-generic-aware="android.widget.EditText" jni-extends="Landroid/widget/EditText;" final="true" name="k.3" static="false" visibility="" jni-signature="Lcom/unity3d/player/k$3;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="onKeyPreIme" jni-signature="(ILandroid/view/KeyEvent;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="android.view.KeyEvent" jni-type="Landroid/view/KeyEvent;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onSelectionChanged" jni-signature="(II)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onWindowFocusChanged" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="k.4" static="false" visibility="" jni-signature="Lcom/unity3d/player/k$4;">
+      <implements name="android.widget.TextView.OnEditorActionListener" name-generic-aware="android.widget.TextView.OnEditorActionListener" jni-type="Landroid/widget/TextView$OnEditorActionListener;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onEditorAction" jni-signature="(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.widget.TextView" jni-type="Landroid/widget/TextView;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="android.view.KeyEvent" jni-type="Landroid/view/KeyEvent;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View" extends-generic-aware="android.view.View" jni-extends="Landroid/view/View;" final="true" name="l" static="false" visibility="public" jni-signature="Lcom/unity3d/player/l;">
+      <constructor deprecated="not deprecated" final="false" name="l" jni-signature="(Landroid/content/Context;I)V" bridge="false" static="false" type="com.unity3d.player.l" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onDetachedFromWindow" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onLayout" jni-signature="(ZIIII)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p4" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="l.1" static="true" visibility="" jni-signature="Lcom/unity3d/player/l$1;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum" jni-extends="Ljava/lang/Enum;" final="true" name="l.a" static="true" visibility="" jni-signature="Lcom/unity3d/player/l$a;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()[I" bridge="false" native="false" return="int[]" jni-return="[I" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="m" static="false" visibility="" jni-signature="Lcom/unity3d/player/m;">
+      <implements name="java.lang.Thread.UncaughtExceptionHandler" name-generic-aware="java.lang.Thread.UncaughtExceptionHandler" jni-type="Ljava/lang/Thread$UncaughtExceptionHandler;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="uncaughtException" jni-signature="(Ljava/lang/Thread;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Thread" jni-type="Ljava/lang/Thread;">
+        </parameter>
+        <parameter name="p1" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="n" static="false" visibility="" jni-signature="Lcom/unity3d/player/n;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="toString" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="NativeLoader" static="false" visibility="public" jni-signature="Lcom/unity3d/player/NativeLoader;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="android.app.Activity" extends-generic-aware="android.app.Activity" jni-extends="Landroid/app/Activity;" final="false" name="NetworkConnectivity" static="false" visibility="public" jni-signature="Lcom/unity3d/player/NetworkConnectivity;">
+      <constructor deprecated="not deprecated" final="false" name="NetworkConnectivity" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.unity3d.player.NetworkConnectivity" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="b" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.net.ConnectivityManager.NetworkCallback" extends-generic-aware="android.net.ConnectivityManager.NetworkCallback" jni-extends="Landroid/net/ConnectivityManager$NetworkCallback;" final="true" name="NetworkConnectivity.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/NetworkConnectivity$1;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="onAvailable" jni-signature="(Landroid/net/Network;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.net.Network" jni-type="Landroid/net/Network;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onCapabilitiesChanged" jni-signature="(Landroid/net/Network;Landroid/net/NetworkCapabilities;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.net.Network" jni-type="Landroid/net/Network;">
+        </parameter>
+        <parameter name="p1" type="android.net.NetworkCapabilities" jni-type="Landroid/net/NetworkCapabilities;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onLost" jni-signature="(Landroid/net/Network;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.net.Network" jni-type="Landroid/net/Network;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onUnavailable" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="o" static="false" visibility="" jni-signature="Lcom/unity3d/player/o;">
+      <constructor deprecated="not deprecated" final="false" name="o" jni-signature="(Ljava/lang/Class;Ljava/lang/Object;)V" bridge="false" static="false" type="com.unity3d.player.o" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Class" jni-type="Ljava/lang/Class;">
+        </parameter>
+        <parameter name="p1" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/lang/String;[Ljava/lang/Class;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.Class[]" jni-type="[Ljava/lang/Class;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.Object..." jni-type="[Ljava/lang/Object;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="o.a" static="false" visibility="" jni-signature="Lcom/unity3d/player/o$a;">
+      <constructor deprecated="not deprecated" final="false" name="o.a" jni-signature="(Lcom/unity3d/player/o;[Ljava/lang/Class;)V" bridge="false" static="false" type="com.unity3d.player.o.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Class[]" jni-type="[Ljava/lang/Class;">
+        </parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="[Ljava/lang/Class;" static="false" transient="false" type="java.lang.Class[]" type-generic-aware="java.lang.Class[]" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="Ljava/lang/reflect/Method;" static="false" transient="false" type="java.lang.reflect.Method" type-generic-aware="java.lang.reflect.Method" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.FrameLayout" extends-generic-aware="android.widget.FrameLayout" jni-extends="Landroid/widget/FrameLayout;" final="true" name="p" static="false" visibility="public" jni-signature="Lcom/unity3d/player/p;">
+      <implements name="android.media.MediaPlayer.OnBufferingUpdateListener" name-generic-aware="android.media.MediaPlayer.OnBufferingUpdateListener" jni-type="Landroid/media/MediaPlayer$OnBufferingUpdateListener;">
+      </implements>
+      <implements name="android.media.MediaPlayer.OnCompletionListener" name-generic-aware="android.media.MediaPlayer.OnCompletionListener" jni-type="Landroid/media/MediaPlayer$OnCompletionListener;">
+      </implements>
+      <implements name="android.media.MediaPlayer.OnPreparedListener" name-generic-aware="android.media.MediaPlayer.OnPreparedListener" jni-type="Landroid/media/MediaPlayer$OnPreparedListener;">
+      </implements>
+      <implements name="android.media.MediaPlayer.OnVideoSizeChangedListener" name-generic-aware="android.media.MediaPlayer.OnVideoSizeChangedListener" jni-type="Landroid/media/MediaPlayer$OnVideoSizeChangedListener;">
+      </implements>
+      <implements name="android.view.SurfaceHolder.Callback" name-generic-aware="android.view.SurfaceHolder.Callback" jni-type="Landroid/view/SurfaceHolder$Callback;">
+      </implements>
+      <implements name="android.widget.MediaController.MediaPlayerControl" name-generic-aware="android.widget.MediaController.MediaPlayerControl" jni-type="Landroid/widget/MediaController$MediaPlayerControl;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="p" jni-signature="(Landroid/content/Context;Ljava/lang/String;IIIZJJLcom/unity3d/player/p$a;)V" bridge="false" static="false" type="com.unity3d.player.p" synthetic="false" visibility="protected">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p4" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p5" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p6" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p7" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p8" type="com.unity3d.player.p.a" jni-type="Lcom/unity3d/player/p$a;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="CancelOnPrepare" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="canPause" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="canSeekBackward" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="canSeekForward" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="destroyPlayer" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="doCleanUp" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getAudioSessionId" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getBufferPercentage" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getCurrentPosition" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="getDuration" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="isPlaying" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onBufferingUpdate" jni-signature="(Landroid/media/MediaPlayer;I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.media.MediaPlayer" jni-type="Landroid/media/MediaPlayer;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onCompletion" jni-signature="(Landroid/media/MediaPlayer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.media.MediaPlayer" jni-type="Landroid/media/MediaPlayer;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onKeyDown" jni-signature="(ILandroid/view/KeyEvent;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="android.view.KeyEvent" jni-type="Landroid/view/KeyEvent;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onPrepared" jni-signature="(Landroid/media/MediaPlayer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.media.MediaPlayer" jni-type="Landroid/media/MediaPlayer;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onTouchEvent" jni-signature="(Landroid/view/MotionEvent;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.MotionEvent" jni-type="Landroid/view/MotionEvent;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onVideoSizeChanged" jni-signature="(Landroid/media/MediaPlayer;II)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.media.MediaPlayer" jni-type="Landroid/media/MediaPlayer;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="pause" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="seekTo" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="start" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="surfaceChanged" jni-signature="(Landroid/view/SurfaceHolder;III)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.SurfaceHolder" jni-type="Landroid/view/SurfaceHolder;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="surfaceCreated" jni-signature="(Landroid/view/SurfaceHolder;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.SurfaceHolder" jni-type="Landroid/view/SurfaceHolder;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="surfaceDestroyed" jni-signature="(Landroid/view/SurfaceHolder;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.SurfaceHolder" jni-type="Landroid/view/SurfaceHolder;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="updateVideoLayout" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="p.a" static="true" visibility="public" jni-signature="Lcom/unity3d/player/p$a;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="p.b" static="false" visibility="public" jni-signature="Lcom/unity3d/player/p$b;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="p.b" jni-signature="(Lcom/unity3d/player/p;Lcom/unity3d/player/p;)V" bridge="false" static="false" type="com.unity3d.player.p.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.unity3d.player.p" jni-type="Lcom/unity3d/player/p;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="q" static="false" visibility="" jni-signature="Lcom/unity3d/player/q;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Landroid/content/Context;Ljava/lang/String;IIIZJJLcom/unity3d/player/q$a;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p4" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p5" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p6" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p7" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p8" type="com.unity3d.player.q.a" jni-type="Lcom/unity3d/player/q$a;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="b" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="c" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="runOnUiThread" jni-signature="(Ljava/lang/Runnable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="q.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/q$1;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="q.1.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/q$1$1;">
+      <implements name="com.unity3d.player.p.a" name-generic-aware="com.unity3d.player.p.a" jni-type="Lcom/unity3d/player/p$a;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="q.1.1.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/q$1$1$1;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="q.2" static="false" visibility="" jni-signature="Lcom/unity3d/player/q$2;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="q.3" static="false" visibility="" jni-signature="Lcom/unity3d/player/q$3;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="q.4" static="false" visibility="" jni-signature="Lcom/unity3d/player/q$4;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="q.a" static="true" visibility="public" jni-signature="Lcom/unity3d/player/q$a;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="ReflectionHelper" static="false" visibility="" jni-signature="Lcom/unity3d/player/ReflectionHelper;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="endUnityLaunch" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getConstructorID" jni-signature="(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Constructor;" bridge="false" native="false" return="java.lang.reflect.Constructor" jni-return="Ljava/lang/reflect/Constructor;" static="true" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.Class" jni-type="Ljava/lang/Class;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFieldID" jni-signature="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/reflect/Field;" bridge="false" native="false" return="java.lang.reflect.Field" jni-return="Ljava/lang/reflect/Field;" static="true" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.Class" jni-type="Ljava/lang/Class;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p3" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFieldSignature" jni-signature="(Ljava/lang/reflect/Field;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.reflect.Field" jni-type="Ljava/lang/reflect/Field;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMethodID" jni-signature="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/reflect/Method;" bridge="false" native="false" return="java.lang.reflect.Method" jni-return="Ljava/lang/reflect/Method;" static="true" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.Class" jni-type="Ljava/lang/Class;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p3" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newProxyInstance" jni-signature="(JLjava/lang/Class;)Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="true" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p1" type="java.lang.Class" jni-type="Ljava/lang/Class;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newProxyInstance" jni-signature="(J[Ljava/lang/Class;)Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="true" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p1" type="java.lang.Class[]" jni-type="[Ljava/lang/Class;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setNativeExceptionOnProxy" jni-signature="(Ljava/lang/Object;JZ)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p2" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="LOG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="LOGV" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="protected" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="ReflectionHelper.1" static="true" visibility="" jni-signature="Lcom/unity3d/player/ReflectionHelper$1;">
+      <implements name="com.unity3d.player.ReflectionHelper.b" name-generic-aware="com.unity3d.player.ReflectionHelper.b" jni-type="Lcom/unity3d/player/ReflectionHelper$b;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(JZ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p1" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="finalize" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="invoke" jni-signature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="p1" type="java.lang.reflect.Method" jni-type="Ljava/lang/reflect/Method;">
+        </parameter>
+        <parameter name="p2" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="ReflectionHelper.a" static="true" visibility="private" jni-signature="Lcom/unity3d/player/ReflectionHelper$a;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="equals" jni-signature="(Ljava/lang/Object;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="hashCode" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Ljava/lang/reflect/Member;" static="false" transient="false" type="java.lang.reflect.Member" type-generic-aware="java.lang.reflect.Member" visibility="public" volatile="true">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ReflectionHelper.b" static="true" visibility="protected" jni-signature="Lcom/unity3d/player/ReflectionHelper$b;">
+      <implements name="java.lang.reflect.InvocationHandler" name-generic-aware="java.lang.reflect.InvocationHandler" jni-type="Ljava/lang/reflect/InvocationHandler;">
+      </implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(JZ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p1" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.FrameLayout" extends-generic-aware="android.widget.FrameLayout" jni-extends="Landroid/widget/FrameLayout;" final="false" name="UnityPlayer" static="false" visibility="public" jni-signature="Lcom/unity3d/player/UnityPlayer;">
+      <implements name="com.unity3d.player.IUnityPlayerLifecycleEvents" name-generic-aware="com.unity3d.player.IUnityPlayerLifecycleEvents" jni-type="Lcom/unity3d/player/IUnityPlayerLifecycleEvents;">
+      </implements>
+      <implements name="com.unity3d.player.f" name-generic-aware="com.unity3d.player.f" jni-type="Lcom/unity3d/player/f;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="UnityPlayer" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.unity3d.player.UnityPlayer" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="UnityPlayer" jni-signature="(Landroid/content/Context;Lcom/unity3d/player/IUnityPlayerLifecycleEvents;)V" bridge="false" static="false" type="com.unity3d.player.UnityPlayer" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="com.unity3d.player.IUnityPlayerLifecycleEvents" jni-type="Lcom/unity3d/player/IUnityPlayerLifecycleEvents;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="UnitySendMessage" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addPhoneCallListener" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addViewToPlayer" jni-signature="(Landroid/view/View;Z)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.View" jni-type="Landroid/view/View;">
+        </parameter>
+        <parameter name="p1" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="configurationChanged" jni-signature="(Landroid/content/res/Configuration;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.res.Configuration" jni-type="Landroid/content/res/Configuration;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="destroy" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="disableLogger" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="displayChanged" jni-signature="(ILandroid/view/Surface;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="android.view.Surface" jni-type="Landroid/view/Surface;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="executeGLThreadJobs" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getClipboardText" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getKeyboardLayout" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLaunchURL" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNetworkConnectivity" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNetworkProxySettings" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSettings" jni-signature="()Landroid/os/Bundle;" bridge="false" native="false" return="android.os.Bundle" jni-return="Landroid/os/Bundle;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSplashMode" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getView" jni-signature="()Landroid/view/View;" bridge="false" native="false" return="android.view.View" jni-return="Landroid/view/View;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hideSoftInput" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" jni-signature="(IZ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="initializeGoogleAr" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="initializeGoogleVr" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="injectEvent" jni-signature="(Landroid/view/InputEvent;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.InputEvent" jni-type="Landroid/view/InputEvent;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isFinishing" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="kill" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="loadLibrary" jni-signature="(Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="loadLibraryStatic" jni-signature="(Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="lowMemory" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newIntent" jni-signature="(Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Intent" jni-type="Landroid/content/Intent;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="notifyOnUnityPlayerUnloaded" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onUnityPlayerQuitted" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onUnityPlayerUnloaded" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="pause" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="quit" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeViewFromPlayer" jni-signature="(Landroid/view/View;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.View" jni-type="Landroid/view/View;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="reportError" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="reportSoftInputArea" jni-signature="(Landroid/graphics/Rect;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="android.graphics.Rect" jni-type="Landroid/graphics/Rect;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="reportSoftInputIsVisible" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="reportSoftInputSelection" jni-signature="(II)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="reportSoftInputStr" jni-signature="(Ljava/lang/String;IZ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="requestUserAuthorization" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="resume" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCharacterLimit" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setClipboardText" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHideInputField" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelection" jni-signature="(II)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSoftInputStr" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showSoftInput" jni-signature="(Ljava/lang/String;IZZZZLjava/lang/String;IZ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p3" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p4" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p5" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p6" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p7" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p8" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showVideoPlayer" jni-signature="(Ljava/lang/String;IIIZII)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p4" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="p5" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p6" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="skipPermissionsDialog" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="startOrientationListener" jni-signature="(I)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="stopOrientationListener" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="toggleGyroscopeSensor" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unload" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="windowFocusChanged" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="currentActivity" jni-signature="Landroid/app/Activity;" static="true" transient="false" type="android.app.Activity" type-generic-aware="android.app.Activity" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$1;">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener" jni-type="Landroid/content/DialogInterface$OnClickListener;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onClick" jni-signature="(Landroid/content/DialogInterface;I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.DialogInterface" jni-type="Landroid/content/DialogInterface;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.unity3d.player.UnityPlayer.f" extends-generic-aware="com.unity3d.player.UnityPlayer.f" jni-extends="Lcom/unity3d/player/UnityPlayer$f;" final="true" name="UnityPlayer.10" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$10;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.unity3d.player.UnityPlayer.f" extends-generic-aware="com.unity3d.player.UnityPlayer.f" jni-extends="Lcom/unity3d/player/UnityPlayer$f;" final="true" name="UnityPlayer.11" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$11;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.unity3d.player.UnityPlayer.f" extends-generic-aware="com.unity3d.player.UnityPlayer.f" jni-extends="Lcom/unity3d/player/UnityPlayer$f;" final="true" name="UnityPlayer.12" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$12;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.unity3d.player.UnityPlayer.f" extends-generic-aware="com.unity3d.player.UnityPlayer.f" jni-extends="Lcom/unity3d/player/UnityPlayer$f;" final="true" name="UnityPlayer.13" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$13;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.14" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$14;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.15" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$15;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.16" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$16;">
+      <implements name="com.unity3d.player.q.a" name-generic-aware="com.unity3d.player.q.a" jni-type="Lcom/unity3d/player/q$a;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.17" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$17;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.18" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$18;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.OrientationEventListener" extends-generic-aware="android.view.OrientationEventListener" jni-extends="Landroid/view/OrientationEventListener;" final="true" name="UnityPlayer.19" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$19;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="onOrientationChanged" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.2" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$2;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.20" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$20;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.21" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$21;">
+      <implements name="android.view.SurfaceHolder.Callback" name-generic-aware="android.view.SurfaceHolder.Callback" jni-type="Landroid/view/SurfaceHolder$Callback;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="surfaceChanged" jni-signature="(Landroid/view/SurfaceHolder;III)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.SurfaceHolder" jni-type="Landroid/view/SurfaceHolder;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="surfaceCreated" jni-signature="(Landroid/view/SurfaceHolder;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.SurfaceHolder" jni-type="Landroid/view/SurfaceHolder;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="surfaceDestroyed" jni-signature="(Landroid/view/SurfaceHolder;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.view.SurfaceHolder" jni-type="Landroid/view/SurfaceHolder;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.22" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$22;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.23" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$23;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.24" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$24;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.25" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$25;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.26" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$26;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.3" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$3;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.4" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$4;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.4.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$4$1;">
+      <implements name="android.content.DialogInterface.OnCancelListener" name-generic-aware="android.content.DialogInterface.OnCancelListener" jni-type="Landroid/content/DialogInterface$OnCancelListener;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onCancel" jni-signature="(Landroid/content/DialogInterface;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.DialogInterface" jni-type="Landroid/content/DialogInterface;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.5" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$5;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.6" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$6;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.7" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$7;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.8" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$8;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.9" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$9;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.a" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$a;">
+      <implements name="android.hardware.SensorEventListener" name-generic-aware="android.hardware.SensorEventListener" jni-type="Landroid/hardware/SensorEventListener;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onAccuracyChanged" jni-signature="(Landroid/hardware/Sensor;I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.Sensor" jni-type="Landroid/hardware/Sensor;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onSensorChanged" jni-signature="(Landroid/hardware/SensorEvent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.SensorEvent" jni-type="Landroid/hardware/SensorEvent;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum" jni-extends="Ljava/lang/Enum;" final="true" name="UnityPlayer.b" static="true" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$b;">
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.telephony.PhoneStateListener" extends-generic-aware="android.telephony.PhoneStateListener" jni-extends="Landroid/telephony/PhoneStateListener;" final="true" name="UnityPlayer.c" static="false" visibility="private" jni-signature="Lcom/unity3d/player/UnityPlayer$c;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="onCallStateChanged" jni-signature="(ILjava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum" jni-extends="Ljava/lang/Enum;" final="true" name="UnityPlayer.d" static="true" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$d;">
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Lcom/unity3d/player/UnityPlayer$d;" static="true" transient="false" type="com.unity3d.player.UnityPlayer.d" type-generic-aware="com.unity3d.player.UnityPlayer.d" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="Lcom/unity3d/player/UnityPlayer$d;" static="true" transient="false" type="com.unity3d.player.UnityPlayer.d" type-generic-aware="com.unity3d.player.UnityPlayer.d" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="Lcom/unity3d/player/UnityPlayer$d;" static="true" transient="false" type="com.unity3d.player.UnityPlayer.d" type-generic-aware="com.unity3d.player.UnityPlayer.d" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="Lcom/unity3d/player/UnityPlayer$d;" static="true" transient="false" type="com.unity3d.player.UnityPlayer.d" type-generic-aware="com.unity3d.player.UnityPlayer.d" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="e" jni-signature="Lcom/unity3d/player/UnityPlayer$d;" static="true" transient="false" type="com.unity3d.player.UnityPlayer.d" type-generic-aware="com.unity3d.player.UnityPlayer.d" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="f" jni-signature="Lcom/unity3d/player/UnityPlayer$d;" static="true" transient="false" type="com.unity3d.player.UnityPlayer.d" type-generic-aware="com.unity3d.player.UnityPlayer.d" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="g" jni-signature="Lcom/unity3d/player/UnityPlayer$d;" static="true" transient="false" type="com.unity3d.player.UnityPlayer.d" type-generic-aware="com.unity3d.player.UnityPlayer.d" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="h" jni-signature="Lcom/unity3d/player/UnityPlayer$d;" static="true" transient="false" type="com.unity3d.player.UnityPlayer.d" type-generic-aware="com.unity3d.player.UnityPlayer.d" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="i" jni-signature="Lcom/unity3d/player/UnityPlayer$d;" static="true" transient="false" type="com.unity3d.player.UnityPlayer.d" type-generic-aware="com.unity3d.player.UnityPlayer.d" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="j" jni-signature="Lcom/unity3d/player/UnityPlayer$d;" static="true" transient="false" type="com.unity3d.player.UnityPlayer.d" type-generic-aware="com.unity3d.player.UnityPlayer.d" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" jni-extends="Ljava/lang/Thread;" final="true" name="UnityPlayer.e" static="false" visibility="private" jni-signature="Lcom/unity3d/player/UnityPlayer$e;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(II)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/lang/Runnable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="b" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="b" jni-signature="(Ljava/lang/Runnable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="c" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="c" jni-signature="(Ljava/lang/Runnable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="d" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="d" jni-signature="(Ljava/lang/Runnable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="e" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="UnityPlayer.e.1" static="false" visibility="" jni-signature="Lcom/unity3d/player/UnityPlayer$e$1;">
+      <implements name="android.os.Handler.Callback" name-generic-aware="android.os.Handler.Callback" jni-type="Landroid/os/Handler$Callback;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="handleMessage" jni-signature="(Landroid/os/Message;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message" jni-type="Landroid/os/Message;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="UnityPlayer.f" static="false" visibility="private" jni-signature="Lcom/unity3d/player/UnityPlayer$f;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.app.Activity" extends-generic-aware="android.app.Activity" jni-extends="Landroid/app/Activity;" final="false" name="UnityPlayerActivity" static="false" visibility="public" jni-signature="Lcom/unity3d/player/UnityPlayerActivity;">
+      <implements name="com.unity3d.player.IUnityPlayerLifecycleEvents" name-generic-aware="com.unity3d.player.IUnityPlayerLifecycleEvents" jni-type="Lcom/unity3d/player/IUnityPlayerLifecycleEvents;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="UnityPlayerActivity" jni-signature="()V" bridge="false" static="false" type="com.unity3d.player.UnityPlayerActivity" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onUnityPlayerQuitted" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onUnityPlayerUnloaded" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="updateUnityCommandLineArguments" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="cmdLine" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="mUnityPlayer" jni-signature="Lcom/unity3d/player/UnityPlayer;" static="false" transient="false" type="com.unity3d.player.UnityPlayer" type-generic-aware="com.unity3d.player.UnityPlayer" visibility="protected" volatile="false">
+      </field>
+    </class>
+  </package>
+  <package name="org.fmod" jni-name="org/fmod">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="a" static="false" visibility="" jni-signature="Lorg/fmod/a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="b" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="c" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FMODAudioDevice" static="false" visibility="public" jni-signature="Lorg/fmod/FMODAudioDevice;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="FMODAudioDevice" jni-signature="()V" bridge="false" static="false" type="org.fmod.FMODAudioDevice" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isRunning" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="start" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="startAudioRecord" jni-signature="(III)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="stop" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="stopAudioRecord" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+      </method>
+    </class>
+  </package>
+</api>

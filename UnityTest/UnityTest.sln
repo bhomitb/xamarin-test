@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTest", "UnityTest.csproj", "{59DF0512-252F-4B6D-9215-30D061F21FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLibrary", "..\UnityLibrary\UnityLibrary.csproj", "{DBFA584D-2155-4386-9D63-B01B18137E05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59DF0512-252F-4B6D-9215-30D061F21FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DF0512-252F-4B6D-9215-30D061F21FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DF0512-252F-4B6D-9215-30D061F21FC8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{59DF0512-252F-4B6D-9215-30D061F21FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DF0512-252F-4B6D-9215-30D061F21FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59DF0512-252F-4B6D-9215-30D061F21FC8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DBFA584D-2155-4386-9D63-B01B18137E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFA584D-2155-4386-9D63-B01B18137E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFA584D-2155-4386-9D63-B01B18137E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFA584D-2155-4386-9D63-B01B18137E05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {001A13FC-5204-488E-BAAA-A0C843212BC8}
+	EndGlobalSection
+EndGlobal

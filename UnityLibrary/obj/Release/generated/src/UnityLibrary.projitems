@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Bitter.Jnibridge.JNIBridge.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Google.Androidgamesdk.ChoreographerCallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Google.Androidgamesdk.SwappyDisplayManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.AudioVolumeHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.Camera2Wrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.GoogleARCoreApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.GoogleVrApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.HFPStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.IGoogleVrVideo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.IUnityPlayerLifecycleEvents.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.NativeLoader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.NetworkConnectivity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.UnityPlayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Unity3d.Player.UnityPlayerActivity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Org.Fmod.FMODAudioDevice.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

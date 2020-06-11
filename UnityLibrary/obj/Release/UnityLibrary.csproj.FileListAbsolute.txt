@@ -1,0 +1,6 @@
+D:\Development\Xamarin\UnityLibrary\bin\Release\UnityLibrary.dll
+D:\Development\Xamarin\UnityLibrary\bin\Release\UnityLibrary.pdb
+D:\Development\Xamarin\UnityLibrary\obj\Release\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+D:\Development\Xamarin\UnityLibrary\obj\Release\UnityLibrary.csproj.CoreCompileInputs.cache
+D:\Development\Xamarin\UnityLibrary\obj\Release\UnityLibrary.dll
+D:\Development\Xamarin\UnityLibrary\obj\Release\UnityLibrary.pdb
